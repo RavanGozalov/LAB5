@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Лабораторна робота 5</title>
+    <script src="https://cdn.plot.ly/plotly-2.27.1.min.js"></script>
+</head>
+<body>
+    <div id="gpsPlot" style="width:600px;height:600px;"></div>
+    
+    <div>
+        Частота повідомлень (msg/sec): <input type="number" id="freq" value="2"><br>
+        Швидкість супутників (км/год): <input type="number" id="satSpeed" value="120"><br>
+        Швидкість об'єкта (км/год): <input type="number" id="objSpeed" value="20"><br>
+        <button onclick="updateConfig()">Оновити</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
